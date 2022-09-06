@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220906122957">
+	<title>Ціни</title>
+	
+</head>
+  <body id="pricePage">
+    <div class="wrapper">
+      
+<header class="lock-padding header header--white" id="header">
+	<div class="container">
+		<div class="header__row v-center">
+			<div class="header__item item-left">
+				<div class="logo">
+					<a href="index.html" class="header__logo"><img class="logo-black" src="img/logo-vector.svg" alt="logo"><img class="logo-white" src="img/logo-vector-white-no-border.svg" alt="logo"></a>
+				</div>
+			</div>
+			<div class="header__item item-center">
+				<div class="menu__overlay"></div>
+				<nav class="menu">
+					<div class="menu__mobile-head mob-visible">
+						<div class="go-back"><span></span></div>
+						<div class="current-menu-title"></div>
+						<div class="mobile-menu-close">&times;</div>
+					</div>
+					<ul class="menu__main">
+						<li class="menu__item">
+							<a data-go-page="portfolio.html" data-link ="portfolioPage" href="#">Портфоліо</a>
+						</li>
+						<li class="menu__item">
+							<a data-go-page="service.html" data-link ="servicePage" href="#">Послуги</a>
+						</li>
+						<li class="menu__item">
+							<a data-go-page="price.html" data-link ="pricePage" href="#">Вартість</a>
+						</li>
+						<li class="menu__item menu__item-has-children">
+							
+							<a href="#">Контакти<span></span></a>
+							<div class="sub-menu single-column-menu">
+								<ul>
+									<li>
+										<a href="tel:+380000000000">+38(000)000-00-00</a>
+									</li>
+									<li>
+										<a href="mailto:oh.tattoo@gmail.com" style="text-transform: lowercase;">oh.tattoo@gmail.com</a>
+									</li>
+									<li>
+										<div class="social-block">
+											<a href="#" class="social-icon" data-tooltip="facebook: @oh.tattoo">
+												<picture><source srcset="img/facebook.webp" type="image/webp"><img src="img/facebook.png" alt="facebook"></picture>
+											</a>
+											<a href="#" class="social-icon" data-tooltip="instagram: @oh.tattoo">
+												<picture><source srcset="img/instagram.webp" type="image/webp"><img src="img/instagram.webp" alt="facebook"></picture>
+											</a>
+											<a href="viber://chat?number=%2B380000000000" class="social-icon" data-tooltip="viber: +38(000)000 00 00">
+												<picture><source srcset="img/viber.webp" type="image/webp"><img src="img/viber.png" alt="viber"></picture>
+											</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="menu__item menu__item-has-children">
+							<a href="#">Всі сторінки<span></span></a>
+							<div class="sub-menu mega-menu mega-menu__column-4">
+								
+								<div class="list-item">
+									<a data-go-page="index.html" data-link ="homePage" href="#">
+										<h4>Головна</h4>
+									</a>
+									<a data-go-page="master.html" data-link ="masterPage" href="#">
+										<h4>Наші майстри</h4>
+									</a>
+									<a data-go-page="catalog.html" data-link ="catalogPage" href="#">
+										<h4>Каталог ескізів</h4>
+									</a>
+								</div>
+								<div class="list-item">
+									<a data-go-page="payment.html" data-link ="paymentPage" href="#">
+										<h4>Способи оплати</h4>
+									</a>
+									<a data-go-page="diznatys-cinu.html" data-link ="diznatysCinuPage" href="#">
+										<h4>Запитати про ціну</h4>
+									</a>
+									<a data-go-page="contacts.html" data-link ="contactsPage" href="#">
+										<h4>Контактна інформація</h4>
+									</a>
+								</div>
+								<div class="list-item">
+									<a data-go-page="portfolio.html" data-link ="portfolioPage" href="#">
+										<h4>Портфоліо</h4>
+									</a>
+									<a data-go-page="service.html" data-link ="servicePage" href="#">
+										<h4>Послуги</h4>
+									</a>
+									<a data-go-page="price.html" data-link ="pricePage" href="#">
+										<h4>Вартість</h4>
+									</a>
+								</div>
+								<div class="list-item">
+									<picture><source srcset="img/master-petro.webp" type="image/webp"><img src="img/master-petro.webp" alt="tattoo" style="object-fit: cover;"></picture>
+								</div>
+							</div>
+						</li>
+						<li class="menu__item mob-visible">
+							<a href="#">Записатись</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header__item item-right">
+				<a href="contacts.html#bookIn" class="button mob-hide">Записатись</a>
+				<div class="menu__icon _scrolled"><span></span></div>
+			</div>
+		</div>
+	</div>
+</header>
+
+      <main id="price" class="page price">
+        <section class="section page__section" style="padding: 0">
+          <div class="page__heading heading img-bg">
+            <picture><source srcset="https://justarrived.by/media/cache/blog_big/uploads/App/Entity/Blog/7bb44eee5db0b6207e23155f650b459e670060d3.webp" type="image/webp"><img src="https://justarrived.by/media/cache/blog_big/uploads/App/Entity/Blog/7bb44eee5db0b6207e23155f650b459e670060d3.jpeg" alt="tattoo-master" /></picture>
+            <div class="heading__title">
+              <h2>Вартiсть послуг</h2>
+            </div>
+            <div class="heading__breadcrumbs">
+              <span> <a data-go-page="index.html" href="index.html">Головна</a> / Вартість</span>
+              </div>
+          </div>
+        </section>
+        <section
+          class="section page__section bg"
+          style="padding: 5rem 0 0;"
+        >
+          <div class="container container-col">
+            <div
+              class="section__heading section__heading--max-height"
+              style="padding: 2rem 0 1rem"
+            >
+              <div class="section__logo img-bg">
+                <img src="img/logo-section-black.svg" alt="logo" />
+              </div>
+              <div class="section__suptitle"><span>Скільки коштує</span></div>
+              <h2 class="section__title">Наш прайс-лист</h2>
+            </div>
+            <div data-spoilers data-one-spoiler class="spoiler price__spoiler">
+              <div
+                class="spoiler__item price__spoiler-item spoiler-item"
+                id="tattoo"
+              >
+                <button
+                  tabindex="-1"
+                  type="button"
+                  data-spoiler
+                  class="spoiler__title spoiler-item__title"
+                >
+                  Татуювання
+                </button>
+                <div class="spoiler__content spoiler-item__content">
+                  <table
+                    class="price__table spoiler-item__table"
+                    width="100%"
+                    id="tattoo-price"
+                  >
+                    <thead class="spoiler-item__thead">
+                      <div class="spoiler-item__thead-content">
+                        <h4>Примітка:</h4>
+                        <ul>
+                          <li>
+                            Ціни залежать від розміру та складності ескізу, від
+                            стилю та деталізації татуювання а також від ділянки
+                            тіла на яку буде нанесене тату.
+                          </li>
+                          <li>
+                            Більш детальну інформацію Ви можете отримати за номером
+                            <a href="tel:+380000000000">+38(000)000-00-00</a>
+                          </li>
+                        </ul>
+                        <a href="diznatys-cinu.html" class="thead-content__button">
+                          Дізнатись ціну
+                        </a>
+                      </div>
+                    </thead>
+                    <tbody class="spoiler-item__tbody">
+                      <tr>
+                        <td>Мінімальна вартість тату</td>
+                        <td>400 грн</td>
+                      </tr>
+                      <tr>
+                        <td>Тату від учня (під доглядом майстра)</td>
+                        <td>200 грн</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div
+                class="spoiler__item price__spoiler-item spoiler-item"
+                id="makeup"
+              >
+                <button
+                  tabindex="-1"
+                  type="button"
+                  data-spoiler
+                  class="spoiler__title spoiler-item__title"
+                >
+                  Перманентний макіяж
+                </button>
+                <div class="spoiler__content spoiler-item__content">
+                  <table
+                    class="price__table spoiler-item__table"
+                    width="100%"
+                    id="makeup-price"
+                  >
+                    <thead class="spoiler-item__thead">
+                      <div class="spoiler-item__thead-content">
+                        <h4>Примітка:</h4>
+                        <ul>
+                          <li>
+                            Ціни залежать від використовуваного обладнання та
+                            спеціальних матеріалів.
+                          </li>
+                          <li>
+                            Більш детальну інформацію Ви можете отримати за номером
+                            <a href="tel:+380000000000">+38(000)000-00-00</a>
+                          </li>
+                        </ul>
+                        <a href="diznatys-cinu.html" class="thead-content__button">
+                          Дізнатись ціну
+                        </a>
+                      </div>
+                    </thead>
+                    <tbody class="spoiler-item__tbody">
+                      <tr>
+                        <td>Вуста з повним розтушовуванням</td>
+                        <td>від 800 до 2900 грн грн</td>
+                      </tr>
+                      <tr>
+                        <td>Вуста контур з легким розтушовуванням</td>
+                        <td>від 800 до 2000 грн</td>
+                      </tr>
+                      <tr>
+                        <td>Брови повне розтушовування</td>
+                        <td>від 800 до 2700 грн</td>
+                      </tr>
+                      <tr>
+                        <td>Повіки простір між віями</td>
+                        <td>от 800 до 2700 грн</td>
+                      </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                  </table>
+                </div>
+              </div>
+              <div
+                class="spoiler__item price__spoiler-item spoiler-item"
+                id="delete-tattoo"
+              >
+                <button
+                  tabindex="-1"
+                  type="button"
+                  data-spoiler
+                  class="spoiler__title spoiler-item__title"
+                >
+                  Видалення тату
+                </button>
+                <div class="spoiler__content spoiler-item__content">
+                  <table
+                    class="price__table spoiler-item__table"
+                    width="100%"
+                    id="delete-tattoo-price"
+                  >
+                    <thead class="spoiler-item__thead">
+                      <div class="spoiler-item__thead-content">
+                        <h4>Примітка:</h4>
+                        <ul>
+                          <li>
+                            Ціни вказані приблизні і залежать від кількох
+                            факторів: розмір тату, стан здоров'я клієнта, місце
+                            розташування та колір тату.
+                          </li>
+                          <li>
+                            Більш детальну інформацію Ви можете отримати за номером
+                            <a href="tel:+380000000000">+38(000)000-00-00</a>
+                          </li>
+                        </ul>
+                        <a href="diznatys-cinu.html" class="thead-content__button">
+                          Дізнатись ціну
+                        </a>
+                      </div>
+                    </thead>
+                    <tbody class="spoiler-item__tbody">
+                      <tr>
+                        <td>Тату 2х2см</td>
+                        <td>від 300 до 600 грн</td>
+                      </tr>
+                      <tr>
+                        <td>Тату 4х4см</td>
+                        <td>від 400 до 700 грн</td>
+                      </tr>
+                      <tr>
+                        <td>Тату 10х5см</td>
+                        <td>від 600 до 1000 грн</td>
+                      </tr>
+                      <tr>
+                        <td>Тату 15х7см</td>
+                        <td>від 1100 до 1500 грн</td>
+                      </tr>
+                      <tr>
+                        <td>Тату більш 15х10см</td>
+                        <td>від 1500 грн</td>
+                      </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                  </table>
+                </div>
+              </div>
+              <div
+                class="spoiler__item price__spoiler-item spoiler-item"
+                id="delete-tattooazh"
+              >
+                <button
+                  tabindex="-1"
+                  type="button"
+                  data-spoiler
+                  class="spoiler__title spoiler-item__title"
+                >
+                  Видалення татуажу
+                </button>
+                <div class="spoiler__content spoiler-item__content">
+                  <table
+                    class="price__table spoiler-item__table"
+                    width="100%"
+                    id="delete-tattooazh-price"
+                  >
+                    <thead class="spoiler-item__thead">
+                      <div class="spoiler-item__thead-content">
+                        <h4>Примітка:</h4>
+                        <ul>
+                          <li>
+                            Ціни вказані приблизні і залежать від типу малюнка,
+                            місця та глибини його нанесення.
+                          </li>
+                          <li>
+                            Більш детальну інформацію Ви можете отримати за номером
+                            <a href="tel:+380000000000">+38(000)000-00-00</a>
+                          </li>
+                        </ul>
+                        <a href="diznatys-cinu.html" class="thead-content__button">
+                          Дізнатись ціну
+                        </a>
+                      </div>
+                    </thead>
+                    <tbody class="spoiler-item__tbody">
+                      <tr>
+                        <td>Перманентний макіяж брів (повне)</td>
+                        <td>від 500 до 800 грн</td>
+                      </tr>
+                      <tr>
+                        <td>Перманентний макіяж брів (часткове)</td>
+                        <td>від 300 до 600 грн</td>
+                      </tr>
+                      <tr>
+                        <td>Перманентний макіяж губ (контур)</td>
+                        <td>від 400 грн</td>
+                      </tr>
+                      <tr>
+                        <td>Перманентний макіяж губ (повне або часткове)</td>
+                        <td>від 600 грн</td>
+                      </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                  </table>
+                </div>
+              </div>
+              <div
+                class="spoiler__item price__spoiler-item spoiler-item"
+                id="education"
+              >
+                <button
+                  tabindex="-1"
+                  type="button"
+                  data-spoiler
+                  class="spoiler__title spoiler-item__title"
+                >
+                  Навчання
+                </button>
+                <div class="spoiler__content spoiler-item__content">
+                  <table
+                    class="price__table spoiler-item__table"
+                    width="100%"
+                    id="education-price"
+                  >
+                    <thead class="spoiler-item__thead">
+                      <div class="spoiler-item__thead-content">
+                        <h4>Примітка:</h4>
+                        <ul>
+                          <li>
+                            У вартість навчання входять всі витратні матеріали
+                            та допомога з пошуком моделей, а також консультація
+                            й допомога з вибором та придбанням обладнання та
+                            витратних матеріалів для подальшої роботи.
+                          </li>
+                          <li>
+                            Після навчання видається диплом європейського
+                            зразка, який реєструється в базі майстрів. Можливо
+                            подальше працевлаштування.
+                          </li>
+                          <li>
+                            Більш детальну інформацію Ви можете отримати у
+                            онлайн консультанта або за номером
+                            <a href="tel:+380000000000">+38(000)000-00-00</a>
+                          </li>
+                        </ul>
+                        <a href="diznatys-cinu.html" class="thead-content__button">
+                          Дізнатись ціну
+                        </a>
+                      </div>
+                    </thead>
+                    <tbody class="spoiler-item__tbody">
+                      <tr>
+                        <td>Навчання тату (10 - 12 занять)</td>
+                        <td>
+                          від 13000 грн (докладніше у онлайн - консультанта)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Навчання татуажу (10 - 12 занять)</td>
+                        <td>
+                          від 9000 грн (докладніше у онлайн - консультанта)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Навчання пірсингу (6 - 10 занять)</td>
+                        <td>
+                          від 7000 грн (докладніше у онлайн - консультанта)
+                        </td>
+                      </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section page__section bg"  style="margin: 0;">
+          <div class="container">
+            <div class="section__content content price-content">
+              <div class="container price-content__row row--reverce">
+              <div class="price-content__col">
+                <div class="price-content__img img-bg">
+                <picture><source srcset="img/tattoo-main2.webp" type="image/webp"><img src="img/tattoo-main2.jpg" alt="tattoo" /></picture>
+                </div>
+              </div>
+              <div class="price-content__col">
+                <div class="price-content__block">
+                <h3 style="text-align: start;">Про ціни на тату</h3>
+                <p>
+                  На ціни тату вплива&shy;ють безліч факторів, а
+                  най&shy;головні&shy;шим момен&shy;том є саме вибір
+                  майстра. Якщо майстер ква&shy;ліфіко&shy;ваний та
+                  досвід&shy;чений, відпо&shy;відно і його роб&shy;ота
+                  буде кошту&shy;вати дорож&shy;че. Оскільки гарна якість
+                  та май&shy;стер&shy;на робота досвід&shy;ченого
+                  фахів&shy;ця не може оціню&shy;вати&shy;ся дешево.
+                </p>
+                <p>
+                  Роботи майстрів початків&shy;ців, за ціною набага&shy;то
+                  нижчі, ніж у досвід&shy;чених професіо&shy;налів.
+                  Основні кри&shy;терії, за якими фахі&shy;вець оцінює
+                  тату - масштаб зоб&shy;ражен&shy;ня, склад&shy;ність у
+                  вико&shy;нанні та якість роботи.
+                </p>
+                <div class="divider price-content__divider"><span></span></div>
+                </div>
+              </div>
+              </div>
+            </div>
+            </div>
+        </section>
+        <section class="section page__section section-parallax"
+              style="height: fit-content; margin: 0; padding: 0;">
+              <div class="parallax" style="padding: 0; min-height: 0">
+                <div class="container container-col parallax-container">
+                  <div class="section__content content price-content">
+                    <div class="container price-content__row price-content__row--dark">
+                      <div class="price-content__col">
+                        <div class="price-content__img price-content__img--big img-bg">
+                          <picture><source srcset="img/tattoo-main3.webp" type="image/webp"><img src="img/tattoo-main3.png" alt="tattoo" /></picture>
+                        </div>
+                      </div>
+                      <div class="price-content__col">
+                        <div class="price-content__block">
+                          <h3 class="white-text">Вибір майстра</h3>
+                          <p class="white-text">
+                            Важливо розуміти, що вибір тату-майстра - це серйоз&shy;ний процес, адже люди&shy;на яку Ви обира&shy;єте, зали&shy;шить на Вашо&shy;му ті&shy;лі свою робо&shy;ту на все жит&shy;тя.
+                          </p>
+                <p class="white-text">У початківця Вас можуть прива&shy;бити дипломи, привіт&shy;на зустріч та доступ&shy;ні ціни на пос&shy;луги. Але от питання, чи досвід&shy;чений перед Вами фахі&shy;вець та якої якості ро&shy;боти він виконує? Варто від&shy;разу зауважи&shy;ти, не озна&shy;чає що всі новач&shy;ки тату-сфери працюють неякісно.</p>
+                <p class="white-text">І серед них є класні май&shy;стри, які за корот&shy;кий період показу&shy;ють хороші резуль&shy;та&shy;ти, й викону&shy;ють якісні ро&shy;боти. А щоб не по&shy;мили&shy;тися, й бути впев&shy;неним, попро&shy;сіть порт&shy;фоліо майс&shy;тра, і Ви переко&shy;наєте&shy;ся в його дос&shy;віді самі.</p>
+                          <div class="divider price-content__divider"><span></span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+        <section class="section page__section bg"  style="margin: 0;">
+          <div class="container">
+            <div class="section__content content price-content">
+              <div class="container price-content__row row--reverce">
+              <div class="price-content__col">
+                <div class="price-content__img img-bg">
+                <picture><source srcset="img/eskiz-tattoo.webp" type="image/webp"><img src="img/eskiz-tattoo.jpg" alt="sketch-create" /></picture>
+                </div>
+              </div>
+              <div class="price-content__col">
+                <div class="price-content__block">
+                <h3 style="text-align: start;">Складність зображення</h3>
+                <p>
+                  Чим зображення склад&shy;ніше викона&shy;ти, тим вищою бу&shy;де на нього ці&shy;на. На вар&shy;тість та&shy;ту впли&shy;ва&shy;ють такі чин&shy;ники: чорно-біле зоб&shy;ражен&shy;ня в прос&shy;тому сти&shy;лі; ро&shy;бо&shy;та з ко&shy;льо&shy;ром, склад&shy;ними пере&shy;хода&shy;ми та ство&shy;рен&shy;ня об'єму.
+                </p>
+                <p>
+                  Взяти до прик&shy;ла&shy;ду реа&shy;лізм - це до&shy;сить склад&shy;ний стиль, який ви&shy;ма&shy;гає без&shy;лічі знань, умінь, часу та дос&shy;ві&shy;ду. Не кожен майс&shy;тер доб&shy;ре справ&shy;ляєть&shy;ся з даним сти&shy;лем, то&shy;му над ви&shy;бо&shy;ром фахів&shy;ця до&shy;ведеть&shy;ся доб&shy;ре за&shy;думати&shy;ся.
+                </p>
+                <div class="divider price-content__divider"><span></span></div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section page__section section-parallax"
+              style="height: fit-content; margin: 0; padding: 0;">
+              <div class="parallax parallax--two" style="padding: 0; min-height: 0">
+                <div class="container container-col parallax-container">
+                  <div class="section__content content price-content">
+                    <div class="container price-content__row price-content__row--dark">
+                      <div class="price-content__col">
+                        <div class="price-content__img price-content__img--big img-bg">
+                          <picture><source srcset="img/tattoo-19.webp" type="image/webp"><img src="img/tattoo-19.jpg" alt="tattoo-man" /></picture>
+                        </div>
+                      </div>
+                      <div class="price-content__col">
+                        <div class="price-content__block">
+                          <h3 class="white-text">Масштаб тату</h3>
+                          <p class="white-text">
+                            Розмір зоб&shy;ражен&shy;ня також є ва&shy;го&shy;мим фак&shy;то&shy;ром, що впли&shy;ває на вар&shy;тість май&shy;бут&shy;нього та&shy;ту&shy;юван&shy;ня. Щоб діз&shy;нати&shy;ся приб&shy;лиз&shy;ну вар&shy;тість май&shy;стер при&shy;множує дов&shy;жи&shy;ну ма&shy;люн&shy;ка на йо&shy;го ви&shy;со&shy;ту. Одер&shy;жа&shy;ний ре&shy;зуль&shy;тат, своєю чер&shy;гою, прим&shy;ножує на вар&shy;тість од&shy;но&shy;го сан&shy;тимет&shy;ра у квад&shy;ра&shy;ті. Але тут є один ню&shy;анс: чим мас&shy;штаб&shy;ні&shy;ше зоб&shy;ра&shy;жен&shy;ня, тим ниж&shy;ча ці&shy;на на йо&shy;го квад&shy;рат&shy;ний сан&shy;ти&shy;метр.
+                          </p>
+                <p class="white-text">Го&shy;лов&shy;ну роль грає склад&shy;ність ви&shy;конан&shy;ня. Зоб&shy;ра&shy;жен&shy;ня в яко&shy;му є без&shy;ліч дріб&shy;них де&shy;та&shy;лей, як пра&shy;ви&shy;ло, оціню&shy;ється не за мас&shy;шта&shy;бом, а за склад&shy;ніс&shy;тю. Вар&shy;тість та&shy;кої ро&shy;бо&shy;ти бу&shy;де до&shy;го&shy;вір&shy;на. Май&shy;стер змо&shy;же наз&shy;ва&shy;ти точ&shy;ну су&shy;му ли&shy;ше то&shy;ді, ко&shy;ли ес&shy;кіз бу&shy;де пов&shy;ніс&shy;тю го&shy;то&shy;вий.</p>
+                          <div class="divider price-content__divider"><span></span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+        <section class="section page__section bg"  style="margin: 0;">
+          <div class="container">
+            <div class="section__content content price-content">
+              <div class="container price-content__row row--reverce">
+              <div class="price-content__col">
+                <div class="price-content__img img-bg">
+                <picture><source srcset="img/tattoo-5-veselka.webp" type="image/webp"><img src="img/tattoo-5-veselka.jpg" alt="tattoo-colored" /></picture>
+                </div>
+              </div>
+              <div class="price-content__col">
+                <div class="price-content__block">
+                <h3 style="text-align: start; line-height: 1.3; margin-bottom: 0.5rem;">Палітра кольорів та міс&shy;це майбут&shy;нього тату&shy;ювання</h3>
+                <p>
+                  Місце, на якому бу&shy;де кра&shy;сува&shy;тися ма&shy;лю&shy;нок, а та&shy;кож па&shy;літ&shy;ра піг&shy;мен&shy;тів, що бу&shy;дуть ви&shy;ко&shy;рис&shy;то&shy;ву&shy;ва&shy;ти&shy;ся, теж впли&shy;ва&shy;ють на вар&shy;тість та&shy;ту. Та&shy;кож на ці&shy;ну, не&shy;сут&shy;тє&shy;во, але все ж впли&shy;ває зас&shy;то&shy;су&shy;вання анес&shy;те&shy;ти&shy;ків. Діз&shy;нати&shy;ся приб&shy;лиз&shy;ні ці&shy;ни та&shy;ту в тату-сту&shy;дії "OH!tattoo", Ви мо&shy;же&shy;те вище.
+                </p>
+                <div class="divider price-content__divider"><span></span></div>
+                </div>
+              </div>
+              </div>
+            </div>
+            </div>
+        </section>
+        <section class="section page__section contacts-section img-bg">
+          <!--  -->
+          <a data-goto="#price" href="#" class="block__arrow go-link"></a>
+          <div class="container content__row">
+            <div class="content__col">
+              <div class="content__block">
+                <h3 class="content__block-title white-text">Наша адреса</h3>
+                <div class="divider"><span></span></div>
+                <div class="content__block-text">
+                  <p class="white-text">
+                    м.Івано-Франківськ,<br />
+                    вул.Гетьмана Мазепи, 20/8
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="content__col">
+              <div class="content__block">
+                <h3 class="content__block-title white-text">
+                  Телефон та E-mail
+                </h3>
+                <div class="divider"><span></span></div>
+                <div class="content__block-text">
+                  <p><a href="#" class="white-text">+38(000)000-00-00</a></p>
+                  <p><a href="#" class="white-text">oh.tattoo@gmail.com</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="content__col">
+              <div class="content__block">
+                <h3 class="content__block-title white-text">Часи роботи</h3>
+                <div class="divider"><span></span></div>
+                <div class="content__block-text">
+                  <p class="white-text">Пн - Сб: 09.00 - 18.00</p>
+                  <p class="white-text">Нд: Вихідний</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h2 class="section__title white-text" style="margin: 5rem 0 2rem">
+            Звортній зв'язок
+          </h2>
+          <div class="callback">
+            <div class="row callback__row">
+              <div class="col callback__col">
+                <h2 class="callback__title">ЗАМОВИТИ<br/> ЗВОРОТНІЙ<br class="mob-none"/> ДЗВІНОК</h2>
+              </div>
+              <div class="col callback__col">
+                <form action="#" class="contacts-form form-body callback-form" id="contactsForm">
+                  <div class="contacts-form__item callback-form__item">
+                    <input type="text" name="username" id="userName" placeholder="Ваше ім'я...*" class="contacts-form__input callback-form__input req">
+                  </div>
+                  <div class="contacts-form__item callback-form__item">
+                    <input type="tel" name="usertel" id="userTel" placeholder="Ваш телефон...*" class="contacts-form__input callback-form__input req">
+                  </div>
+                  <div class="contacts-form__item callback-form__item">
+                    <input type="checkbox" name="agreement" id="userAgreement" class="checkbox__input callback-form__input req" checked>
+                    <label for="userAgreement" class="contacts-form__label callback-form__label checkbox-label callback-form__checkbox"><span>Даю згоду на <a href="#">обробку персональних даних</a></span></label>
+                  </div>
+                  <div class="contacts-form__item callback-form__item">
+                    <button type="submit" class="contacts-form__button callback-form__button">Вiдправити</button>		
+                  </div>	
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+	<div class="container">
+		<div class="footer__grid-row">
+			<div class="footer__grid-col tab-hide">
+				<picture><source srcset="img/master-petro.webp" type="image/webp"><img class="footer__grid-col_img" src="img/master-petro.webp" alt="eskiz-tattoo"></picture>
+			</div>
+			<div class="footer__grid-col">
+				<ul class="footer__list">
+					<li class="footer__item">м.Івано-Франківськ</li>
+					<li class="footer__item">вул.Гетьмана Мазепи, 20/8</li>
+					<li class="footer__item"><div class="divider divider-start"><span></span></div></li>
+					<li class="footer__item"><a href="#" class="footer__link">+38(000)000-00-00</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">oh.tattoo@gmail.com</a></li>
+					<li class="footer__item"><div class="divider divider-start"><span></span></div></li>
+					<li class="footer__item"><div class="social-block">
+						<a href="#" class="social-icon" data-tooltip="facebook: @oh.tattoo">
+							<picture><source srcset="img/facebook.webp" type="image/webp"><img src="img/facebook.png" alt="facebook"></picture>
+						</a>
+						<a href="#" class="social-icon" data-tooltip="instagram: @oh.tattoo">
+							<picture><source srcset="img/instagram.webp" type="image/webp"><img src="img/instagram.webp" alt="instagram"></picture>
+						</a>
+						<a href="viber://chat?number=%2B380000000000" class="social-icon" data-tooltip="viber: +38(000)000 00 00">
+							<picture><source srcset="img/viber.webp" type="image/webp"><img src="img/viber.png" alt="viber"></picture>
+						</a>
+					</div></li>
+				</ul>
+			</div>
+			<div class="footer__grid-col footer__grid-col--mob-string">
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a data-go-page="index.html" data-link ="homePage" href="#" class="footer__link">
+							Головна
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="master.html" data-link ="masterPage" href="#" class="footer__link">
+							Наші майстри
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="catalog.html" data-link ="catalogPage" href="#" class="footer__link">
+							Каталог ескізів
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="payment.html" data-link ="paymentPage" href="#" class="footer__link">
+							Способи оплати
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="diznatys-cinu.html" data-link ="diznatysCinuPage" href="#" class="footer__link">
+							Запитати про ціну
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="contacts.html" data-link ="contactsPage" href="#" class="footer__link">
+							Контактна інформація
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="portfolio.html" data-link ="portfolioPage" href="#" class="footer__link">
+							Портфоліо
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="service.html" data-link ="servicePage" href="#" class="footer__link">
+							Послуги
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="price.html" data-link ="pricePage" href="#" class="footer__link">
+							Вартість
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__grid-col footer__grid-col--mob-text-right">
+				<ul class="footer__list">
+					<li class="footer__item row--reverce text-end footer__item--mini-col">
+						<img src="../img/logo-vector-white.svg" alt="logo" class="footer__item-logo">
+						Найкра&shy;щий та&shy;ту са&shy;лон!<br/>
+						Послу&shy;ги нада&shy;ють&shy;ся осо&shy;бам, які до&shy;сяг&shy;ли 18 ро&shy;ків!
+					</li>
+					
+					<li class="footer__item">
+						<div class="divider divider-start">
+							<span style="width: 100%;"></span>
+						</div>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="oferta.html" data-link ="ofertaPage" href="#" class="footer__link">
+							Публічна оферта
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="private-police.html" data-link ="privatePolicePage" href="#" class="footer__link">
+							Політика конфіденційності
+						</a>
+					</li>
+					<li class="footer__item">
+						<div class="divider divider-start divider-75">
+							<span></span>
+						</div>
+					</li>
+					<li class="footer__item" style="padding: 7px 0;"><a data-go-page="contacts.html#bookIn" href="#" class="button">Записатись</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer__copyright-row">
+		<p>Copyright U-Ra 2022</p>
+	</div>
+</footer>
+    </div>
+    <script src="js/app.min.js?_v=20220906122957"></script>
+  </body>
+</html>
