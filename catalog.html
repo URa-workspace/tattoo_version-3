@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220906181155">
+	<title>Каталог</title>
+	
+</head>
+<body id="catalogPage">
+	<div class="wrapper">
+		
+<header class="lock-padding header header--white" id="header">
+	<div class="container">
+		<div class="header__row v-center">
+			<div class="header__item item-left">
+				<div class="logo">
+					<a href="index.html" class="header__logo"><img class="logo-black" src="img/logo-vector.svg" alt="logo"><img class="logo-white" src="img/logo-vector-white-no-border.svg" alt="logo"></a>
+				</div>
+			</div>
+			<div class="header__item item-center">
+				<div class="menu__overlay"></div>
+				<nav class="menu">
+					<div class="menu__mobile-head mob-visible">
+						<div class="go-back"><span></span></div>
+						<div class="current-menu-title"></div>
+						<div class="mobile-menu-close">&times;</div>
+					</div>
+					<ul class="menu__main">
+						<li class="menu__item">
+							<a data-go-page="portfolio.html" data-link ="portfolioPage" href="#">Портфоліо</a>
+						</li>
+						<li class="menu__item">
+							<a data-go-page="service.html" data-link ="servicePage" href="#">Послуги</a>
+						</li>
+						<li class="menu__item">
+							<a data-go-page="price.html" data-link ="pricePage" href="#">Вартість</a>
+						</li>
+						<li class="menu__item menu__item-has-children">
+							
+							<a href="#">Контакти<span></span></a>
+							<div class="sub-menu single-column-menu">
+								<ul>
+									<li>
+										<a href="tel:+380000000000">+38(000)000-00-00</a>
+									</li>
+									<li>
+										<a href="mailto:oh.tattoo@gmail.com" style="text-transform: lowercase;">oh.tattoo@gmail.com</a>
+									</li>
+									<li>
+										<div class="social-block">
+											<div class="social-icon" data-tooltip="facebook: @oh.tattoo">
+												<a href="#">
+													<picture><source srcset="img/facebook.webp" type="image/webp"><img src="img/facebook.png" alt="facebook"></picture>
+												</a>
+											</div>
+											<div class="social-icon" data-tooltip="instagram: @oh.tattoo">
+												<a href="#">
+													<picture><source srcset="img/instagram.webp" type="image/webp"><img src="img/instagram.webp" alt="facebook"></picture>
+												</a>
+											</div>
+											
+											<div class="social-icon"  data-tooltip="viber: +38(066)273-14-13">
+												<a href="viber://chat?number=%2B380662731413">
+													<picture><source srcset="img/viber.webp" type="image/webp"><img src="img/viber.png" alt="viber"></picture>
+												</a>
+											</div>
+											
+										</div>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="menu__item menu__item-has-children">
+							<a href="#">Всі сторінки<span></span></a>
+							<div class="sub-menu mega-menu mega-menu__column-4">
+								
+								<div class="list-item">
+									<a data-go-page="index.html" data-link ="homePage" href="#">
+										<h4>Головна</h4>
+									</a>
+									<a data-go-page="master.html" data-link ="masterPage" href="#">
+										<h4>Наші майстри</h4>
+									</a>
+									<a data-go-page="catalog.html" data-link ="catalogPage" href="#">
+										<h4>Каталог ескізів</h4>
+									</a>
+								</div>
+								<div class="list-item">
+									<a data-go-page="payment.html" data-link ="paymentPage" href="#">
+										<h4>Способи оплати</h4>
+									</a>
+									<a data-go-page="diznatys-cinu.html" data-link ="diznatysCinuPage" href="#">
+										<h4>Запитати про ціну</h4>
+									</a>
+									<a data-go-page="contacts.html" data-link ="contactsPage" href="#">
+										<h4>Контактна інформація</h4>
+									</a>
+								</div>
+								<div class="list-item">
+									<a data-go-page="portfolio.html" data-link ="portfolioPage" href="#">
+										<h4>Портфоліо</h4>
+									</a>
+									<a data-go-page="service.html" data-link ="servicePage" href="#">
+										<h4>Послуги</h4>
+									</a>
+									<a data-go-page="price.html" data-link ="pricePage" href="#">
+										<h4>Вартість</h4>
+									</a>
+								</div>
+								<div class="list-item">
+									<picture><source srcset="img/master-petro.webp" type="image/webp"><img src="img/master-petro.webp" alt="tattoo" style="object-fit: cover;"></picture>
+								</div>
+							</div>
+						</li>
+						<li class="menu__item mob-visible">
+							<a href="#">Записатись</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header__item item-right">
+				<a href="contacts.html#bookIn" class="button mob-hide">Записатись</a>
+				<div class="menu__icon _scrolled"><span></span></div>
+			</div>
+		</div>
+	</div>
+</header>
+
+		<main id="swup" class="page page-catalog">
+			<section class="section page__section" style="padding: 0">
+				<div class="page__heading heading img-bg">
+				<picture><source srcset="img/new-bg-section-2.webp" type="image/webp"><img src="img/new-bg-section-2.jpg" alt="tattoo" /></picture>
+				<div class="heading__title">
+					<h2>Каталог ескiзiв</h2>
+				</div>
+				<div class="heading__breadcrumbs">
+					<span> <a data-go-page="index.html" href="index.html">Головна</a> / Каталог</span>
+					</div>
+				</div>
+			</section>
+			<section class="section bg" style="padding-bottom: 3rem;">
+				<div class="container container-col">
+					<div class="section__heading">
+					<div class="section__logo img-bg"><img src="img/logo-section-black.svg" alt="logo"></div>
+					<div class="section__suptitle"><span>Ловіть натхнення</span></div>
+					<h2 class="section__title">Ескізи для натхнення</h2>
+					</div>
+				</div>  
+			</section>
+			<section class="section page__section section__alfabet alfabet bg-colored">
+				<div class="container">
+					<ul class="alfabet__list">
+						<li><a href="#a">А</a></li>
+						<li><a href="#">Б</a></li>
+						<li><a href="#">В</a></li>
+						<li><a href="#">Г</a></li>   
+						<li><a href="#">Д</a></li>
+						<li><a href="#">Е</a></li>
+						<li><a href="#">Є</a></li>
+						<li><a href="#">Ж</a></li>
+						<li><a href="#">З</a></li>
+						<li><a href="#">І</a></li>
+						<li><a href="#">Ї</a></li>
+						<li><a href="#">Й</a></li>
+						<li><a href="#">К</a></li>
+						<li><a href="#">Л</a></li>
+						<li><a href="#">М</a></li>
+						<li><a href="#">Н</a></li>
+						<li><a href="#">О</a></li>
+						<li><a href="#">П</a></li>
+						<li><a href="#">Р</a></li>
+						<li><a href="#">С</a></li>
+						<li><a href="#">Т</a></li>
+						<li><a href="#">Ф</a></li>
+						<li><a href="#">Х</a></li>
+						<li><a href="#">Ц</a></li>
+						<li><a href="#">Ч</a></li>
+						<li><a href="#">Ш</a></li>
+						<li><a href="#">Я</a></li>
+					</ul>
+				</div>
+			</section>
+			<section class="section page__section bg" style="padding-top: 3rem;">
+				<div class="container">
+					<article class="catalog">
+						<ul class="catalog__list">
+							<li class="catalog__item" id="a"><span>A</span>
+								<ul class="catalog__letter-list">
+									<li><a href="abstractionism.html">Абстракціонізм</a></li>
+									<li><a href="aquarel.html">Акварель</a></li>
+									<li><a href="akula.html">Акула</a></li>
+									<li><a href="almaz.html">Алмази</a></li>
+									<li><a href="amulet.html">Амулети</a></li>
+									<li><a href="#" class="no-active later">Аніме</a></li>
+									<li><a href="#" class="no-active later">Анубіс</a></li>
+									<li><a href="#" class="no-active later">Арбалет</a></li>
+									<li><a href="#" class="no-active later">Арфа</a></li>
+									<li><a href="#" class="no-active later">Астронавт</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>Б</span>
+								<ul class="catalog__letter-list">
+									<li><a href="baleryna.html">Балерина</a></li>
+									<li><a href="bambuk.html">Бамбук</a></li>
+									<li><a href="bantyk.html">Бантик</a></li>
+									<li><a href="baraban.html">Барабан</a></li>
+									<li><a href="baran.html">Баран</a></li>
+									<li><a href="#" class="no-active later">Барокко</a></li>
+									<li><a href="#" class="no-active later">Башня</a></li>
+									<li><a href="#" class="no-active later">Бейсбол</a></li>
+									<li><a href="#" class="no-active later">Білка</a></li>
+									<li><a href="#" class="no-active later">Біг Бен</a></li>
+									<li><a href="#" class="no-active later">Бінокль</a></li>
+									<li><a href="#" class="no-active later">Біомеханіка</a></li>
+									<li><a href="#" class="no-active later">Біоорганіка</a></li>
+									<li><a href="#" class="no-active later">Блазень</a></li>
+									<li><a href="#" class="no-active later">Блекворк</a></li>
+									<li><a href="#" class="no-active later">Блискавка</a></li>
+									<li><a href="#" class="no-active later">Богатир</a></li>
+									<li><a href="#" class="no-active later">Бокс</a></li>
+									<li><a href="#" class="no-active later">Боксерские перчатки</a></li>
+									<li><a href="#" class="no-active later">Браслет</a></li>
+									<li><a href="#" class="no-active later">Будда</a></li>
+									<li><a href="#" class="no-active later">Будинок</a></li>
+									<li><a href="#" class="no-active later">Бульдог</a></li>
+									<li><a href="#" class="no-active later">Бультер'єр</a></li>
+									<li><a href="#" class="no-active later">Бик</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>В</span>
+								<ul class="catalog__letter-list">
+									<li><a href="vampir.html">Вампір</a></li>
+									<li><a href="vedmid.html">Ведмідь</a></li>
+									<li><a href="veselka.html">Веселка</a></li>
+									<li><a href="vidma.html">Відьма</a></li>
+									<li><a href="viyalo.html">Віяло</a></li>
+									<li><a href="#" class="no-active later">Велосипед</a></li>
+									<li><a href="#" class="no-active later">Вишня</a></li>
+									<li><a href="#" class="no-active later">Вовки</a></li>
+									<li><a href="#" class="no-active later">Вогонь</a></li>
+									<li><a href="#" class="no-active later">Ворон</a></li>
+									<li><a href="#" class="no-active later">Восьминіг</a></li>
+									<li><a href="#" class="no-active later">Вузол</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>Г</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Ганеша</a></li>
+									<li><a href="#" class="no-active later">Гвинтокрил</a></li>
+									<li><a href="#" class="no-active later">Геометрія</a></li>
+									<li><a href="#" class="no-active later">Герої кінофільмів</a></li>
+									<li><a href="#" class="no-active later">Герої коміксів</a></li>
+									<li><a href="#" class="no-active later">Герої мультфільмів</a></li>
+									<li><a href="#" class="no-active later">Герої серіалів</a></li>
+									<li><a href="#" class="no-active later">Гілка сакури</a></li>
+									<li><a href="#" class="no-active later">Гітара</a></li>
+									<li><a href="#" class="no-active later">Гладіатор</a></li>
+									<li><a href="#" class="no-active later">Гладіолус</a></li>
+									<li><a href="#" class="no-active later">Глобус</a></li>
+									<li><a href="#" class="no-active later">Годинник</a></li>
+									<li><a href="#" class="no-active later">Голуб</a></li>
+									<li><a href="#" class="no-active later">Горгона</a></li>
+									<li><a href="#" class="no-active later">Горгулья</a></li>
+									<li><a href="#" class="no-active later">Горила</a></li>
+									<li><a href="#" class="no-active later">Гори</a></li>
+									<li><a href="#" class="no-active later">Горобець</a></li>
+									<li><a href="#" class="no-active later">Гравюра</a></li>
+									<li><a href="#" class="no-active later">Грамофон</a></li>
+									<li><a href="#" class="no-active later">Графіка</a></li>
+									<li><a href="#" class="no-active later">Гриб</a></li>
+									<li><a href="#" class="no-active later">Грифон</a></li>
+									<li><a href="#" class="no-active later">Гроші</a></li>
+									<li><a href="#" class="no-active later">Губи</a></li>
+									<li><a href="#" class="no-active later">Гусак</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>Д</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Дельфін</a></li>
+									<li><a href="#" class="no-active later">Дерево</a></li>
+									<li><a href="#" class="no-active later">Демон</a></li>
+									<li><a href="#" class="no-active later">Дівчина</a></li>
+									<li><a href="#" class="no-active later">Джойстик</a></li>
+									<li><a href="#" class="no-active later">Джокер</a></li>
+									<li><a href="#" class="no-active later">Динозавр</a></li>
+									<li><a href="#" class="no-active later">ДНК</a></li>
+									<li><a href="#" class="no-active later">Доберман</a></li>
+									<li><a href="#" class="no-active later">Дотворк</a></li>
+									<li><a href="#" class="no-active later">Дракони</a></li>
+									<li><a href="#" class="no-active later">Диявол</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>Е</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Ейфелева вежа</a></li>
+									<li><a href="#" class="no-active later">Ельф</a></li>
+									<li><a href="#" class="no-active later">Етніка</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>Є</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Єгипет</a></li>
+									<li><a href="#" class="no-active later">Єдиноріг</a></li>
+									<li><a href="#" class="no-active later">Єнот</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>Ж</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Жаби</a></li>
+									<li><a href="#" class="no-active later">Жар-птиця</a></li>
+									<li><a href="#" class="no-active later">Жирафа</a></li>
+									<li><a href="#" class="no-active later">Жук</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>З</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Зірка Давида</a></li>
+									<li><a href="#" class="no-active later">Зірки</a></li>
+									<li><a href="#" class="no-active later">Зоряні Війни</a></li>
+									<li><a href="#" class="no-active later">Змія</a></li>
+									<li><a href="#" class="no-active later">Золота рибка</a></li>
+									<li><a href="#" class="no-active later">Зомбі</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>І</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Ігрові камені</a></li>
+									<li><a href="#" class="no-active later">Ігрові карти</a></li>
+									<li><a href="#" class="no-active later">Іграшка</a></li>
+									<li><a href="#" class="no-active later">Ігуана</a></li>
+									<li><a href="#" class="no-active later">Ієрогліфи</a></li>
+									<li><a href="#" class="no-active later">Ісус</a></li>
+									<li><a href="#" class="no-active later">Ім'я</a></li>
+									<li><a href="#" class="no-active later">Індіанець</a></li>
+									<li><a href="#" class="no-active later">Індійський слон</a></li>
+									<li><a href="#" class="no-active later">Інь-Ян</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>Ї</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Їжак</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>Й</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Йода</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>К</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Кавун</a></li>
+									<li><a href="#" class="no-active later">Кажан</a></li>
+									<li><a href="#" class="no-active later">Камелія</a></li>
+									<li><a href="#" class="no-active later">Качка</a></li>
+									<li><a href="#" class="no-active later">Квіти</a></li>
+									<li><a href="#" class="no-active later">Короп</a></li>
+									<li><a href="#" class="no-active later">Карусель</a></li>
+									<li><a href="#" class="no-active later">Касета</a></li>
+									<li><a href="#" class="no-active later">Катана</a></li>
+									<li><a href="#" class="no-active later">Кельтика</a></li>
+									<li><a href="#" class="no-active later">Кенгуру</a></li>
+									<li><a href="#" class="no-active later">Кінь</a></li>
+									<li><a href="#" class="no-active later">Кинджал</a></li>
+									<li><a href="#" class="no-active later">Конюшина</a></li>
+									<li><a href="#" class="no-active later">Ключ</a></li>
+									<li><a href="#" class="no-active later">Коала</a></li>
+									<li><a href="#" class="no-active later">Ковбой</a></li>
+									<li><a href="#" class="no-active later">Кока-Кола</a></li>
+									<li><a href="#" class="no-active later">Колесо</a></li>
+									<li><a href="#" class="no-active later">Колібрі</a></li>
+									<li><a href="#" class="no-active later">Коловрат</a></li>
+									<li><a href="#" class="no-active later">Компас</a></li>
+									<li><a href="#" class="no-active later">Корона</a></li>
+									<li><a href="#" class="no-active later">Коти</a></li>
+									<li><a href="#" class="no-active later">Крокодил</a></li>
+									<li><a href="#" class="no-active later">Крила</a></li>
+									<li><a href="#" class="no-active later">Кульбаба</a></li>
+									<li><a href="#" class="no-active later">Куля</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>Л</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Лайнворк</a></li>
+									<li><a href="#" class="no-active later">Лампа</a></li>
+									<li><a href="#" class="no-active later">Ластівка</a></li>
+									<li><a href="#" class="no-active later">Ланцюг</a></li>
+									<li><a href="#" class="no-active later">Лебідь</a></li>
+									<li><a href="#" class="no-active later">Лев</a></li>
+									<li><a href="#" class="no-active later">Лего</a></li>
+									<li><a href="#" class="no-active later">Леттерінг</a></li>
+									<li><a href="#" class="no-active later">Лілії</a></li>
+									<li><a href="#" class="no-active later">Літак</a></li>
+									<li><a href="#" class="no-active later">Лисиця</a></li>
+									<li><a href="#" class="no-active later">Лицар</a></li>
+									<li><a href="#" class="no-active later">Лобстер</a></li>
+									<li><a href="#" class="no-active later">Ловець снів</a></li>
+									<li><a href="#" class="no-active later">Лотос</a></li>
+									<li><a href="#" class="no-active later">Ляльковод</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>М</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Мапа</a></li>
+									<li><a href="#" class="no-active later">Мадонна</a></li>
+									<li><a href="#" class="no-active later">Майя</a></li>
+									<li><a href="#" class="no-active later">Метелик</a></li>
+									<li><a href="#" class="no-active later">Мак</a></li>
+									<li><a href="#" class="no-active later">Мамонт</a></li>
+									<li><a href="#" class="no-active later">Мандали</a></li>
+									<li><a href="#" class="no-active later">Маорі</a></li>
+									<li><a href="#" class="no-active later">Маски</a></li>
+									<li><a href="#" class="no-active later">Маяк</a></li>
+									<li><a href="#" class="no-active later">Медуза</a></li>
+									<li><a href="#" class="no-active later">Мерилін Монро</a></li>
+									<li><a href="#" class="no-active later">Млин</a></li>
+									<li><a href="#" class="no-active later">Місяць</a></li>
+									<li><a href="#" class="no-active later">Меч</a></li>
+									<li><a href="#" class="no-active later">Міккі Маус</a></li>
+									<li><a href="#" class="no-active later">Мінімалізм</a></li>
+									<li><a href="#" class="no-active later">Мозок</a></li>
+									<li><a href="#" class="no-active later">Монета</a></li>
+									<li><a href="#" class="no-active later">Морська зірка</a></li>
+									<li><a href="#" class="no-active later">Мураха</a></li>
+									<li><a href="#" class="no-active later">Миша</a></li>
+									<li><a href="#" class="no-active later">Мушля</a></li>
+								</ul>
+							</li> 
+							<li class="catalog__item"><span>Н</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Написи</a></li>
+									<li><a href="#" class="no-active later">Навушники</a></li>
+									<li><a href="#" class="no-active later">Нескінченність</a></li>
+									<li><a href="#" class="no-active later">Нептун</a></li>
+									<li><a href="#" class="no-active later">Носоріг</a></li>
+									<li><a href="#" class="no-active later">Ноти</a></li>
+									<li><a href="#" class="no-active later">Нью-Скул</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>О</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Об'єктив</a></li>
+									<li><a href="#" class="no-active later">Обладунки</a></li>
+									<li><a href="#" class="no-active later">Олд-Скул</a></li>
+									<li><a href="#" class="no-active later">Олень</a></li>
+									<li><a href="#" class="no-active later">Олівець</a></li>
+									<li><a href="#" class="no-active later">Органіка</a></li>
+									<li><a href="#" class="no-active later">Орел</a></li>
+									<li><a href="#" class="no-active later">Оригамі</a></li>
+									<li><a href="#" class="no-active later">Орієнтал</a></li>
+									<li><a href="#" class="no-active later">Орнаментал</a></li>
+									<li><a href="#" class="no-active later">Орхідея</a></li>
+									<li><a href="#" class="no-active later">Осел</a></li>
+									<li><a href="#" class="no-active later">Окуляри</a></li>
+									<li><a href="#" class="no-active later">Очі</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>П</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Пазл</a></li>
+									<li><a href="#" class="no-active later">Пальма</a></li>
+									<li><a href="#" class="no-active later">Панда</a></li>
+									<li><a href="#" class="no-active later">Пантера</a></li>
+									<li><a href="#" class="no-active later">Вітрильник</a></li>
+									<li><a href="#" class="no-active later">Павук</a></li>
+									<li><a href="#" class="no-active later">Павутина</a></li>
+									<li><a href="#" class="no-active later">Парасоля</a></li>
+									<li><a href="#" class="no-active later">Пегас</a></li>
+									<li><a href="#" class="no-active later">Перлина</a></li>
+									<li><a href="#" class="no-active later">Пір'я</a></li>
+									<li><a href="#" class="no-active later">Пісочний годинник</a></li>
+									<li><a href="#" class="no-active later">Пінгвін</a></li>
+									<li><a href="#" class="no-active later">Півонія</a></li>
+									<li><a href="#" class="no-active later">Піраміди</a></li>
+									<li><a href="#" class="no-active later">Пірат</a></li>
+									<li><a href="#" class="no-active later">Пістолет</a></li>
+									<li><a href="#" class="no-active later">Пітбуль</a></li>
+									<li><a href="#" class="no-active later">Планета</a></li>
+									<li><a href="#" class="no-active later">Підв'язка</a></li>
+									<li><a href="#" class="no-active later">Підкова</a></li>
+									<li><a href="#" class="no-active later">Повітряна куля</a></li>
+									<li><a href="#" class="no-active later">Потяг</a></li>
+									<li><a href="#" class="no-active later">Повний місяць</a></li>
+									<li><a href="#" class="no-active later">Полінезія</a></li>
+									<li><a href="#" class="no-active later">Помада</a></li>
+									<li><a href="#" class="no-active later">Посмішка</a></li>
+									<li><a href="#" class="no-active later">Папуга</a></li>
+									<li><a href="#" class="no-active later">Посейдон</a></li>
+									<li><a href="#" class="no-active later">Птахи</a></li>
+									<li><a href="#" class="no-active later">Пульс</a></li>
+									<li><a href="#" class="no-active later">Пума</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>Р</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Равлик</a></li>
+									<li><a href="#" class="no-active later">Ракета</a></li>
+									<li><a href="#" class="no-active later">Реалізм</a></li>
+									<li><a href="#" class="no-active later">Револьвер</a></li>
+									<li><a href="#" class="no-active later">Робот</a></li>
+									<li><a href="#" class="no-active later">Ромашка</a></li>
+									<li><a href="#" class="no-active later">Русалка</a></li>
+									<li><a href="#" class="no-active later">Риба</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>С</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Сакура</a></li>
+									<li><a href="#" class="no-active later">Сансара</a></li>
+									<li><a href="#" class="no-active later">Свічка</a></li>
+									<li><a href="#" class="no-active later">Свиня</a></li>
+									<li><a href="#" class="no-active later">Серце</a></li>
+									<li><a href="#" class="no-active later">Скелет</a></li>
+									<li><a href="#" class="no-active later">Скетч стайл</a></li>
+									<li><a href="#" class="no-active later">Скорпіон</a></li>
+									<li><a href="#" class="no-active later">Скрипковий ключ</a></li>
+									<li><a href="#" class="no-active later">Слон</a></li>
+									<li><a href="#" class="no-active later">Смерть з косою</a></li>
+									<li><a href="#" class="no-active later">Собака</a></li>
+									<li><a href="#" class="no-active later">Сова</a></li>
+									<li><a href="#" class="no-active later">Сузір'я</a></li>
+									<li><a href="#" class="no-active later">Сокіл</a></li>
+									<li><a href="#" class="no-active later">Сонце</a></li>
+									<li><a href="#" class="no-active later">Сокира</a></li>
+									<li><a href="#" class="no-active later">Спартанець</a></li>
+									<li><a href="#" class="no-active later">Спіраль</a></li>
+									<li><a href="#" class="no-active later">Статуя свободи</a></li>
+									<li><a href="#" class="no-active later">Стімпанк</a></li>
+									<li><a href="#" class="no-active later">Страус</a></li>
+									<li><a href="#" class="no-active later">Стріла</a></li>
+									<li><a href="#" class="no-active later">Сфінкс</a></li>
+									<li><a href="#" class="no-active later">Сходи</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>Т</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Танк</a></li>
+									<li><a href="#" class="no-active later">Телефон</a></li>
+									<li><a href="#" class="no-active later">Термінатор</a></li>
+									<li><a href="#" class="no-active later">Тістечко</a></li>
+									<li><a href="#" class="no-active later">Тигр</a></li>
+									<li><a href="#" class="no-active later">Традішнл</a></li>
+									<li><a href="#" class="no-active later">Троянди</a></li>
+									<li><a href="#" class="no-active later">Трайбл</a></li>
+									<li><a href="#" class="no-active later">Тризуб</a></li>
+									<li><a href="#" class="no-active later">Третє око</a></li>
+									<li><a href="#" class="no-active later">Трикутник</a></li>
+									<li><a href="#" class="no-active later">Треш-полька</a></li>
+									<li><a href="#" class="no-active later">Тукан</a></li>
+									<li><a href="#" class="no-active later">Тюльпан</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>Ф</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Факел</a></li>
+									<li><a href="#" class="no-active later">Фараон</a></li>
+									<li><a href="#" class="no-active later">Фенікс</a></li>
+									<li><a href="#" class="no-active later">Фея</a></li>
+									<li><a href="#" class="no-active later">Фламінго</a></li>
+									<li><a href="#" class="no-active later">Фотоапарат</a></li>
+									<li><a href="#" class="no-active later">Футбол</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>Х</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Хайда</a></li>
+									<li><a href="#" class="no-active later">Хамелеон</a></li>
+									<li><a href="#" class="no-active later">Хаскі</a></li>
+									<li><a href="#" class="no-active later">Хвиля</a></li>
+									<li><a href="#" class="no-active later">Хендпоук</a></li>
+									<li><a href="#" class="no-active later">Химера</a></li>
+									<li><a href="#" class="no-active later">Хмара</a></li>
+									<li><a href="#" class="no-active later">Хрест</a></li>
+									<li><a href="#" class="no-active later">Хохлома</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>Ц</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Цербер</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>Ч</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#">Че Гевара</a></li>
+									<li><a href="#" class="no-active later">Червона троянда</a></li>
+									<li><a href="#" class="no-active later">Чернець</a></li>
+									<li><a href="#" class="no-active later">Череп</a></li>
+									<li><a href="#" class="no-active later">Черепаха</a></li>
+									<li><a href="#" class="no-active later">Човен</a></li>
+									<li><a href="#" class="no-active later">Чорно-білі ескізи</a></li>
+									<li><a href="#" class="no-active later">Чеширський Кіт</a></li>
+									<li><a href="#" class="no-active later">Чикано</a></li>
+									<li><a href="#" class="no-active later">Чумний доктор</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>Ш</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Шахи</a></li>
+									<li><a href="#" class="no-active later">Штрих код</a></li>
+									<li><a href="#" class="no-active later">Штурвал</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item"><span>Я</span>
+								<ul class="catalog__letter-list">
+									<li><a href="#" class="no-active later">Яблуко</a></li>
+									<li><a href="#" class="no-active later">Ягоди</a></li>
+									<li><a href="#" class="no-active later">Ягуар</a></li>
+									<li><a href="#" class="no-active later">Ялина</a></li>
+									<li><a href="#" class="no-active later">Язичництво</a></li>
+									<li><a href="#" class="no-active later">Якір</a></li>
+									<li><a href="#" class="no-active later">Янгол</a></li>
+									<li><a href="#" class="no-active later">Японія</a></li>
+									<li><a href="#" class="no-active later">Яструб</a></li>
+									<li><a href="#" class="no-active later">Ящірка</a></li>
+								</ul>
+							</li>
+						</ul>
+					</article>
+				</div>
+			</section>
+			<section class="section page__section contacts-section img-bg">
+				<!--  -->
+				<a data-goto = ".page-catalog" href="#" class="block__arrow go-link"></a>
+				<div class="container content__row">
+				<div class="content__col">
+					<div class="content__block">
+						<h3 class="content__block-title white-text">Наша адреса</h3>
+						<div class="divider"><span></span></div>
+						<div class="content__block-text">
+						<p class="white-text">м.Івано-Франківськ,<br/>
+						вул.Гетьмана Мазепи, 20/8</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="content__col">
+					<div class="content__block">
+						<h3 class="content__block-title white-text">Телефон та E-mail</h3>
+						<div class="divider"><span></span></div>
+						<div class="content__block-text">
+						<p><a href="tel:+380000000000" class="white-text">+38(000)000-00-00</a></p>
+						<p><a href="mailto:oh.tattoo@gmail.com" class="white-text">oh.tattoo@gmail.com</a></p>
+						</div>
+					</div>
+				</div>
+	
+				<div class="content__col">
+					<div class="content__block">
+						<h3 class="content__block-title white-text">Часи роботи</h3>
+						<div class="divider"><span></span></div>
+						<div class="content__block-text">
+						<p class="white-text">Пн - Сб: 09.00 - 18.00</p>
+						<p class="white-text">Нд: Вихідний</p>
+						</div>
+					</div>
+				</div>
+				</div>
+				<h2 class="section__title white-text" style="margin: 5rem 0 2rem;">Звортній зв'язок</h2>
+				<div class="callback">
+					<div class="row callback__row">
+					<div class="col callback__col">
+						<h2 class="callback__title">ЗАМОВИТИ<br/> ЗВОРОТНІЙ<br class="mob-none"/> ДЗВІНОК</h2>
+					</div>
+					<div class="col callback__col">
+						<form action="#" class="contacts-form form-body callback-form" id="contactsForm">
+						<div class="contacts-form__item callback-form__item">
+							<input type="text" name="username" id="userName" placeholder="Ваше ім'я...*" class="contacts-form__input callback-form__input req">
+						</div>
+						<div class="contacts-form__item callback-form__item">
+							<input type="tel" name="usertel" id="userTel" placeholder="Ваш телефон...*" class="contacts-form__input callback-form__input req">
+						</div>
+						<div class="contacts-form__item callback-form__item">
+							<input type="checkbox" name="agreement" id="userAgreement" class="checkbox__input callback-form__input req" checked>
+							<label for="userAgreement" class="contacts-form__label callback-form__label checkbox-label callback-form__checkbox"><span>Даю згоду на <a href="#">обробку персональних даних</a></span></label>
+						</div>
+						<div class="contacts-form__item callback-form__item">
+							<button type="submit" class="contacts-form__button callback-form__button">Вiдправити</button>		
+						</div>	
+						</form>
+					</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	<footer class="footer">
+	<div class="container">
+		<div class="footer__grid-row">
+			<div class="footer__grid-col tab-hide">
+				<picture><source srcset="img/master-petro.webp" type="image/webp"><img class="footer__grid-col_img" src="img/master-petro.webp" alt="eskiz-tattoo"></picture>
+			</div>
+			<div class="footer__grid-col">
+				<ul class="footer__list">
+					<li class="footer__item">м.Івано-Франківськ</li>
+					<li class="footer__item">вул.Гетьмана Мазепи, 20/8</li>
+					<li class="footer__item"><div class="divider divider-start"><span></span></div></li>
+					<li class="footer__item"><a href="#" class="footer__link">+38(000)000-00-00</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">oh.tattoo@gmail.com</a></li>
+					<li class="footer__item"><div class="divider divider-start"><span></span></div></li>
+					<li class="footer__item">
+						<div class="social-block">
+							<div class="social-icon" data-tooltip="facebook: @oh.tattoo">
+								<a href="#">
+									<picture><source srcset="img/facebook.webp" type="image/webp"><img src="img/facebook.png" alt="facebook"></picture>
+								</a>
+							</div>
+							<div class="social-icon" data-tooltip="instagram: @oh.tattoo">
+								<a href="#">
+									<picture><source srcset="img/instagram.webp" type="image/webp"><img src="img/instagram.webp" alt="facebook"></picture>
+								</a>
+							</div>
+							
+							<div class="social-icon"  data-tooltip="viber: +38(066)273-14-13">
+								<a href="viber://chat?number=%2B380662731413">
+									<picture><source srcset="img/viber.webp" type="image/webp"><img src="img/viber.png" alt="viber"></picture>
+								</a>
+							</div>
+							
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__grid-col footer__grid-col--mob-string">
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a data-go-page="index.html" data-link ="homePage" href="#" class="footer__link">
+							Головна
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="master.html" data-link ="masterPage" href="#" class="footer__link">
+							Наші майстри
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="catalog.html" data-link ="catalogPage" href="#" class="footer__link">
+							Каталог ескізів
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="payment.html" data-link ="paymentPage" href="#" class="footer__link">
+							Способи оплати
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="diznatys-cinu.html" data-link ="diznatysCinuPage" href="#" class="footer__link">
+							Запитати про ціну
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="contacts.html" data-link ="contactsPage" href="#" class="footer__link">
+							Контактна інформація
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="portfolio.html" data-link ="portfolioPage" href="#" class="footer__link">
+							Портфоліо
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="service.html" data-link ="servicePage" href="#" class="footer__link">
+							Послуги
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="price.html" data-link ="pricePage" href="#" class="footer__link">
+							Вартість
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__grid-col footer__grid-col--mob-text-right">
+				<ul class="footer__list">
+					<li class="footer__item row--reverce text-end footer__item--mini-col">
+						<img src="../img/logo-vector-white.svg" alt="logo" class="footer__item-logo">
+						Найкра&shy;щий та&shy;ту са&shy;лон!<br/>
+						Послу&shy;ги нада&shy;ють&shy;ся осо&shy;бам, які до&shy;сяг&shy;ли 18 ро&shy;ків!
+					</li>
+					
+					<li class="footer__item">
+						<div class="divider divider-start">
+							<span style="width: 100%;"></span>
+						</div>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="oferta.html" data-link ="ofertaPage" href="#" class="footer__link">
+							Публічна оферта
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="private-police.html" data-link ="privatePolicePage" href="#" class="footer__link">
+							Політика конфіденційності
+						</a>
+					</li>
+					<li class="footer__item">
+						<div class="divider divider-start divider-75">
+							<span></span>
+						</div>
+					</li>
+					<li class="footer__item" style="padding: 7px 0;"><a data-go-page="contacts.html#bookIn" href="#" class="button">Записатись</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer__copyright-row">
+		<p>Copyright U-Ra 2022</p>
+	</div>
+</footer>
+	<div class="popup" id="popup">
+		<!-- <a href="#popup" class="popup-link">Popup</a> -->
+		<div class="popup__body">
+			<div class="popup__content">
+				<a href="#header" class="popup__close popup-close">X</a>
+				<div class="popup__title">Title #1</div>
+				<div class="popup__main">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Страна страну, толку вопроса инициал рыбными она использовало? Ему, которое, рекламных страну одна переписали семантика до послушавшись пунктуация текст пояс над но бросил вершину. Силуэт правилами запятой которой, пунктуация реторический жаренные языком lorem, точках, пустился запятых эта до свой но.</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup" id="popup-2">
+		<div class="popup__body">
+			<div class="popup__content">
+				<a href="#header" class="popup__close popup-close">X</a>
+				<div class="popup__title">Title #2</div>
+				<div class="popup__main">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Страна страну, толку вопроса инициал рыбными она использовало? Ему, которое, рекламных страну одна переписали семантика до послушавшись пунктуация текст пояс над но бросил вершину. Силуэт правилами запятой которой, пунктуация реторический жаренные языком lorem, точках, пустился запятых эта до свой но.</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<script src="js/app.min.js?_v=20220906181155"></script>
+</body>
+</html>

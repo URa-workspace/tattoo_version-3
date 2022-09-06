@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220906181155">
+	<title>Послуги</title>
+	
+</head>
+<body id="servicePage">
+	<div class="wrapper">
+		
+<header class="lock-padding header header--white" id="header">
+	<div class="container">
+		<div class="header__row v-center">
+			<div class="header__item item-left">
+				<div class="logo">
+					<a href="index.html" class="header__logo"><img class="logo-black" src="img/logo-vector.svg" alt="logo"><img class="logo-white" src="img/logo-vector-white-no-border.svg" alt="logo"></a>
+				</div>
+			</div>
+			<div class="header__item item-center">
+				<div class="menu__overlay"></div>
+				<nav class="menu">
+					<div class="menu__mobile-head mob-visible">
+						<div class="go-back"><span></span></div>
+						<div class="current-menu-title"></div>
+						<div class="mobile-menu-close">&times;</div>
+					</div>
+					<ul class="menu__main">
+						<li class="menu__item">
+							<a data-go-page="portfolio.html" data-link ="portfolioPage" href="#">Портфоліо</a>
+						</li>
+						<li class="menu__item">
+							<a data-go-page="service.html" data-link ="servicePage" href="#">Послуги</a>
+						</li>
+						<li class="menu__item">
+							<a data-go-page="price.html" data-link ="pricePage" href="#">Вартість</a>
+						</li>
+						<li class="menu__item menu__item-has-children">
+							
+							<a href="#">Контакти<span></span></a>
+							<div class="sub-menu single-column-menu">
+								<ul>
+									<li>
+										<a href="tel:+380000000000">+38(000)000-00-00</a>
+									</li>
+									<li>
+										<a href="mailto:oh.tattoo@gmail.com" style="text-transform: lowercase;">oh.tattoo@gmail.com</a>
+									</li>
+									<li>
+										<div class="social-block">
+											<div class="social-icon" data-tooltip="facebook: @oh.tattoo">
+												<a href="#">
+													<picture><source srcset="img/facebook.webp" type="image/webp"><img src="img/facebook.png" alt="facebook"></picture>
+												</a>
+											</div>
+											<div class="social-icon" data-tooltip="instagram: @oh.tattoo">
+												<a href="#">
+													<picture><source srcset="img/instagram.webp" type="image/webp"><img src="img/instagram.webp" alt="facebook"></picture>
+												</a>
+											</div>
+											
+											<div class="social-icon"  data-tooltip="viber: +38(066)273-14-13">
+												<a href="viber://chat?number=%2B380662731413">
+													<picture><source srcset="img/viber.webp" type="image/webp"><img src="img/viber.png" alt="viber"></picture>
+												</a>
+											</div>
+											
+										</div>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="menu__item menu__item-has-children">
+							<a href="#">Всі сторінки<span></span></a>
+							<div class="sub-menu mega-menu mega-menu__column-4">
+								
+								<div class="list-item">
+									<a data-go-page="index.html" data-link ="homePage" href="#">
+										<h4>Головна</h4>
+									</a>
+									<a data-go-page="master.html" data-link ="masterPage" href="#">
+										<h4>Наші майстри</h4>
+									</a>
+									<a data-go-page="catalog.html" data-link ="catalogPage" href="#">
+										<h4>Каталог ескізів</h4>
+									</a>
+								</div>
+								<div class="list-item">
+									<a data-go-page="payment.html" data-link ="paymentPage" href="#">
+										<h4>Способи оплати</h4>
+									</a>
+									<a data-go-page="diznatys-cinu.html" data-link ="diznatysCinuPage" href="#">
+										<h4>Запитати про ціну</h4>
+									</a>
+									<a data-go-page="contacts.html" data-link ="contactsPage" href="#">
+										<h4>Контактна інформація</h4>
+									</a>
+								</div>
+								<div class="list-item">
+									<a data-go-page="portfolio.html" data-link ="portfolioPage" href="#">
+										<h4>Портфоліо</h4>
+									</a>
+									<a data-go-page="service.html" data-link ="servicePage" href="#">
+										<h4>Послуги</h4>
+									</a>
+									<a data-go-page="price.html" data-link ="pricePage" href="#">
+										<h4>Вартість</h4>
+									</a>
+								</div>
+								<div class="list-item">
+									<picture><source srcset="img/master-petro.webp" type="image/webp"><img src="img/master-petro.webp" alt="tattoo" style="object-fit: cover;"></picture>
+								</div>
+							</div>
+						</li>
+						<li class="menu__item mob-visible">
+							<a href="#">Записатись</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header__item item-right">
+				<a href="contacts.html#bookIn" class="button mob-hide">Записатись</a>
+				<div class="menu__icon _scrolled"><span></span></div>
+			</div>
+		</div>
+	</div>
+</header>
+
+		<main id="swup" class="page">
+			<section class="section page__section" style="padding: 0">
+				<div class="page__heading heading img-bg">
+				<picture><source srcset="img/new-bg-section-2.webp" type="image/webp"><img src="img/new-bg-section-2.jpg" alt="tattoo" /></picture>
+				<div class="heading__title">
+					<h2>Послуги</h2>
+				</div>
+				<div class="heading__breadcrumbs">
+					<span> <a data-go-page="index.html" href="index.html">Головна</a> / Послуги</span>
+				</div>
+				</div>
+			</section>
+			<section class="section bg" id="servicePage">
+				<div class="container container-col">
+					<div class="section__heading">
+					<div class="section__logo img-bg"><img src="img/logo-section-black.svg" alt="logo"></div>
+					<div class="section__suptitle"><span>Що ми вміємо</span></div>
+					<h2 class="section__title">Наші послуги</h2>
+					</div>
+				</div>  
+			</section>
+			<section class="section page__section bg" style="margin: 0; padding-top: 0;">
+				<div class="container">
+				  <div class="section__content content price-content">
+					<div class="container price-content__row row--reverce">
+					<div class="price-content__col">
+					  <div class="price-content__img img-bg" style="margin-top: 2rem;">
+					  <picture><source srcset="img/tattoo-14.webp" type="image/webp"><img src="img/tattoo-14.jpg" alt="tattoo" /></picture>
+					  </div>
+					</div>
+					<div class="price-content__col">
+					  <div class="price-content__block">
+					  <h3 style="text-align: start;">Художнє татуювання</h3>
+					  <p>
+						Наші майстри наносять не прос&shy;то картин&shy;ку, а ство&shy;рюють справж&shy;ній вит&shy;вір мис&shy;тецт&shy;ва, який вира&shy;жає внут&shy;ріш&shy;нє «Я» клієн&shy;та. Ми вико&shy;нує&shy;мо малюн&shy;ки різ&shy;них сти&shy;лів та склад&shy;нос&shy;ті, одно- та багато&shy;барвні. Майс&shy;три студії "OH!Tattoo" доб&shy;ре розу&shy;міють&shy;ся на всіх нап&shy;рям&shy;ках і воло&shy;діють різ&shy;ними тех&shy;ніка&shy;ми нане&shy;сення худож&shy;нього тату.
+					  </p>
+					  <p>
+						Забезпечується індивідуальний під&shy;хід до кож&shy;ного клієн&shy;та. Замов&shy;ник може вибра&shy;ти гото&shy;вий ес&shy;кіз з ката&shy;ло&shy;гу і майс&shy;тер вне&shy;се змі&shy;ни так, що вий&shy;де ес&shy;клюзив&shy;не тату&shy;ювання. Вико&shy;нують&shy;ся робо&shy;ти з фото&shy;графії, ес&shy;кізу, на&shy;дано&shy;го клієн&shy;том, а та&shy;кож розроб&shy;ляють&shy;ся уні&shy;каль&shy;ні малюн&shy;ки від&shy;повід&shy;но до поба&shy;жання замовника.
+					  </p>
+					  <div class="divider price-content__divider"><span></span></div>
+					  </div>
+					</div>
+					</div>
+				  </div>
+				  </div>
+			</section>
+			<section class="section page__section section-parallax"
+				style="height: fit-content; margin: 0; padding: 0;">
+				<div class="parallax" style="padding: 0; min-height: 0">
+					<div class="container container-col parallax-container">
+					<div class="section__content content price-content">
+						<div class="container price-content__row price-content__row--dark">
+						<div class="price-content__col">
+							<div class="price-content__img price-content__img--big img-bg" style="margin-top: 2rem;">
+							<picture><source srcset="img/permanent-makeup.webp" type="image/webp"><img src="img/permanent-makeup.jpg" alt="permanent-makeup" /></picture>
+							</div>
+						</div>
+						<div class="price-content__col">
+							<div class="price-content__block">
+							<h3 class="white-text">Перманентний макіяж</h3>
+							<p class="white-text">
+								MakeUp у вигляді тату&shy;ажу губ чи брів не пот&shy;ріб&shy;но зми&shy;вати на ніч. А ще — на&shy;носи&shy;ти на&shy;ново зран&shy;ку раніше. Перма&shy;нент&shy;ний макі&shy;яж три&shy;маєть&shy;ся від кіль&shy;кох мі&shy;ся&shy;ців до кіль&shy;кох років.
+							</p>
+							<p class="white-text">Згодом, у міру онов&shy;лення шкіри, він потьмя&shy;ніє, але відбу&shy;вати&shy;ся це бу&shy;де дуже повіль&shy;но - в деяких випад&shy;ках ефект збері&shy;гаєть&shy;ся до 5 або 6 років. Це і вели&shy;кий плюс (еконо&shy;мія ча&shy;су на ранко&shy;вому макі&shy;яжі), і безпе&shy;реч&shy;ний мінус перма&shy;нент&shy;ного макі&shy;яжу: адже він мо&shy;же набрид&shy;нути, мода на нього - прой&shy;ти. То&shy;му перед проце&shy;дурою до&shy;ведеть&shy;ся ретель&shy;но зва&shy;жити всі за та проти.</p>
+							<p class="white-text">Під час татуажу відбува&shy;ється мік&shy;ро&shy;пігменту&shy;вання на рів&shy;ні приб&shy;лиз&shy;но 0,5 мм від поверх&shy;ні шкі&shy;ри. Це причи&shy;на, через яку ство&shy;рення пер&shy;манент&shy;ного макі&shy;яжу менш боліс&shy;не, ніж робо&shy;та над тату&shy;юванням. Осно&shy;ва бага&shy;тьох барвни&shy;ків для тату&shy;ажу – глі&shy;це&shy;рин. Зав&shy;дяки цьому про&shy;цеду&shy;ра менш трав&shy;матич&shy;на: гліце&shy;рин розчи&shy;няється у тканинах.</p>
+							<div class="divider price-content__divider"><span></span></div>
+							</div>
+						</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</section>
+			<section class="section page__section bg"  style="margin: 0;">
+				<div class="container">
+					<div class="section__content content price-content">
+					<div class="container price-content__row row--reverce">
+					<div class="price-content__col">
+						<div class="price-content__img img-bg" style="margin-top: 2rem; height:auto; padding-bottom:100%;">
+						<picture><source srcset="img/vydalennya-tattoo.webp" type="image/webp"><img src="img/vydalennya-tattoo.jpg" alt="vydalennya-tattoo" /></picture>
+						</div>
+					</div>
+					<div class="price-content__col">
+						<div class="price-content__block">
+						<h3 style="text-align: start;">Видалення тату</h3>
+						<p>
+							Кожен має право на помил&shy;ку і, тату&shy;ювання не виня&shy;ток: повір&shy;те, зроби&shy;ти на собі "портак" — це зов&shy;сім не фаталь&shy;но і виправ&shy;но.
+						</p>
+						<h4>Як працює лазерне видалення тату</h4>
+						<p>
+							Лазер випромінює ультракорот&shy;кі імпульс&shy;ні хви&shy;лі висо&shy;кої концен&shy;тра&shy;ції. Піг&shy;мент тату&shy;ювання пог&shy;линає ці імпуль&shy;си. Піг&shy;мент тату&shy;ювання руй&shy;нуєть&shy;ся на дріб&shy;ні част&shy;ки. Їх пог&shy;ли&shy;нають макро&shy;фаги – клі&shy;тини імунної сис&shy;теми орга&shy;нізму. Макро&shy;фаги виво&shy;дять&shy;ся в лім&shy;фатич&shy;ну сис&shy;тему, потім потрап&shy;ляють у кров, печін&shy;ку, де вони руй&shy;нують&shy;ся і ви&shy;во&shy;дять&shy;ся че&shy;рез нирки. Це при&shy;родний та неш&shy;кідли&shy;вий для орга&shy;нізму про&shy;цес, таким чи&shy;ном він очи&shy;щаєть&shy;ся від бак&shy;терій та ін&shy;ших непот&shy;ріб&shy;них орга&shy;ніз&shy;му речовин.
+						</p>
+						<h4>Чи больно видаляти тату лазером</h4>
+						<p>Деякі клієнти порівнюють про&shy;цес вида&shy;лення тату&shy;ювань із на&shy;несе&shy;нням, чут&shy;ли&shy;вих уда&shy;рів гум&shy;кою або від&shy;чуття&shy;ми під час ви&shy;дале&shy;ння волос&shy;ків епі&shy;лято&shy;ром. Перма&shy;нент&shy;ний ма&shy;кіяж, тату в інтим&shy;ній зо&shy;ні ви&shy;даля&shy;ти бо&shy;лючі&shy;ше, але це малень&shy;кі ді&shy;лян&shy;ки шкі&shy;ри, то&shy;му про&shy;цеду&shy;ра про&shy;хо&shy;дить швидко.</p>
+						<div class="divider price-content__divider"><span></span></div>
+						</div>
+					</div>
+					</div>
+					</div>
+				</div>
+			</section>
+			<section class="section page__section section-parallax"
+				style="height: fit-content; margin: 0; padding: 0;">
+				<div class="parallax parallax--two" style="padding: 0; min-height: 0">
+					<div class="container container-col parallax-container">
+					<div class="section__content content price-content">
+						<div class="container price-content__row price-content__row--dark">
+						<div class="price-content__col">
+							<div class="price-content__img price-content__img--big img-bg">
+							<picture><source srcset="img/eskiz-tattoo.webp" type="image/webp"><img src="img/eskiz-tattoo.jpg" alt="eskiz-tattoo" /></picture>
+							</div>
+						</div>
+						<div class="price-content__col">
+							<div class="price-content__block">
+								<h3 class="white-text">Розробка ескізу тату&shy;ювання</h3>
+								<p class="white-text">
+									Ескіз татуювання необхід&shy;ний для того, щоб ство&shy;рити есклю&shy;зив&shy;ний малю&shy;нок, який ідеаль&shy;но вигля&shy;дати&shy;ме на вашо&shy;му тілі. Наші майс&shy;три мають вищу ху&shy;дож&shy;ню ос&shy;віту, можуть на&shy;малю&shy;вати тату&shy;ювання у будь-яко&shy;му сти&shy;лі та напрям&shy;ку. Якщо вам спо&shy;доба&shy;лося чуже тату&shy;ювання – зов&shy;сім необо&shy;в'язко&shy;во воно бу&shy;де також доб&shy;ре вигля&shy;дати на вас, як на ін&shy;шій люди&shy;ні. Роз&shy;роб&shy;ка інди&shy;відуаль&shy;ного ескі&shy;зу – гаран&shy;тія, що тату&shy;ювання орга&shy;ніч&shy;но впи&shy;шеть&shy;ся в ана&shy;томію ва&shy;шого тіла. 
+								</p>
+								<p class="white-text">При розробці ескізу пот&shy;рібно вра&shy;ховува&shy;ти особли&shy;вос&shy;ті фігу&shy;ри та мус&shy;кулату&shy;ри, а також роз&shy;ташу&shy;вання тату, щоб «впи&shy;сати» ма&shy;лю&shy;нок у потріб&shy;ну части&shy;ну тіла. Нап&shy;рик&shy;лад, від того, де ви хоче&shy;те наби&shy;ти тату&shy;ювання, залежа&shy;тиме її роз&shy;мір – на спи&shy;ні особли&shy;во доб&shy;ре вигля&shy;да&shy;ють вели&shy;кі малюн&shy;ки, а ось на шиї чи зап'яс&shy;ті – невели&shy;кі зоб&shy;ра&shy;ження без зай&shy;вих елементів.</p>
+								<div class="divider price-content__divider"><span></span></div>
+							</div>
+						</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</section>
+			<section class="section page__section bg"  style="margin: 0;">
+				<div class="container">
+					<div class="section__content content price-content">
+						<div class="container price-content__row row--reverce">
+							<div class="price-content__col">
+								<div class="price-content__img img-bg">
+									<picture><source srcset="img/navchannya-tattoo.webp" type="image/webp"><img src="img/navchannya-tattoo.jpg" alt="navchannya-tattoo" /></picture>
+								</div>
+							</div>
+							<div class="price-content__col">
+								<div class="price-content__block">
+									<h3 style="text-align: start; line-height: 1.3; margin-bottom: 0.5rem;">Навчання татуюванню</h3>
+									<p>
+										Для тих, хто тільки почи&shy;нає свій шлях, є базо&shy;вий курс нав&shy;чання тату&shy;ювання. Там учень діз&shy;на&shy;єть&shy;ся всі ос&shy;нови тату мистец&shy;тва, нав&shy;читься збира&shy;ти та розби&shy;рати та&shy;ту машин&shy;ки, діз&shy;наєть&shy;ся про сані&shy;тар&shy;ні нор&shy;ми та зможе вдос&shy;таль попрак&shy;тику&shy;вати&shy;ся на штуч&shy;ній шкі&shy;рі та по&shy;ча&shy;ти ро&shy;би&shy;ти робо&shy;ти на моделях.
+									</p>
+									<p>Для тих хто вже має уяв&shy;лення про профе&shy;сію тату майс&shy;тра та хоче покра&shy;щити свої зна&shy;ння та зро&shy;бити соко&shy;вите порт&shy;фоліо на мо&shy;де&shy;лях, перед&shy;ба&shy;чені прак&shy;тичні за&shy;няття. На них ви під наг&shy;ля&shy;дом вик&shy;лада&shy;ча зро&shy;би&shy;те кіль&shy;ка ро&shy;біт на лю&shy;дях, які да&shy;дуть чудо&shy;вий старт у кар'єрі.</p>
+									<div class="divider price-content__divider"><span></span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section page__section contacts-section img-bg">
+			<!--  -->
+			<a data-goto="#swup" href="#" class="block__arrow go-link"></a>
+			<div class="container content__row">
+				<div class="content__col">
+				<div class="content__block">
+					<h3 class="content__block-title white-text">Наша адреса</h3>
+					<div class="divider"><span></span></div>
+					<div class="content__block-text">
+					<p class="white-text">
+						м.Івано-Франківськ,<br />
+						вул.Гетьмана Мазепи, 20/8
+					</p>
+					</div>
+				</div>
+				</div>
+	
+				<div class="content__col">
+				<div class="content__block">
+					<h3 class="content__block-title white-text">
+					Телефон та E-mail
+					</h3>
+					<div class="divider"><span></span></div>
+					<div class="content__block-text">
+					<p><a href="#" class="white-text">+38(000)000-00-00</a></p>
+					<p><a href="#" class="white-text">oh.tattoo@gmail.com</a></p>
+					</div>
+				</div>
+				</div>
+	
+				<div class="content__col">
+				<div class="content__block">
+					<h3 class="content__block-title white-text">Часи роботи</h3>
+					<div class="divider"><span></span></div>
+					<div class="content__block-text">
+					<p class="white-text">Пн - Сб: 09.00 - 18.00</p>
+					<p class="white-text">Нд: Вихідний</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<h2 class="section__title white-text" style="margin: 5rem 0 2rem">
+				Звортній зв'язок
+			</h2>
+			<div class="callback">
+				<div class="row callback__row">
+				<div class="col callback__col">
+					<h2 class="callback__title">ЗАМОВИТИ<br/> ЗВОРОТНІЙ<br class="mob-none"/> ДЗВІНОК</h2>
+				</div>
+				<div class="col callback__col">
+					<form action="#" class="contacts-form form-body callback-form" id="contactsForm">
+					<div class="contacts-form__item callback-form__item">
+						<input type="text" name="username" id="userName" placeholder="Ваше ім'я...*" class="contacts-form__input callback-form__input req">
+					</div>
+					<div class="contacts-form__item callback-form__item">
+						<input type="tel" name="usertel" id="userTel" placeholder="Ваш телефон...*" class="contacts-form__input callback-form__input req">
+					</div>
+					<div class="contacts-form__item callback-form__item">
+						<input type="checkbox" name="agreement" id="userAgreement" class="checkbox__input callback-form__input req" checked>
+						<label for="userAgreement" class="contacts-form__label callback-form__label checkbox-label callback-form__checkbox"><span>Даю згоду на <a href="#">обробку персональних даних</a></span></label>
+					</div>
+					<div class="contacts-form__item callback-form__item">
+						<button type="submit" class="contacts-form__button callback-form__button">Вiдправити</button>		
+					</div>	
+					</form>
+				</div>
+				</div>
+			</div>
+			</section>
+		</main>
+		<footer class="footer">
+	<div class="container">
+		<div class="footer__grid-row">
+			<div class="footer__grid-col tab-hide">
+				<picture><source srcset="img/master-petro.webp" type="image/webp"><img class="footer__grid-col_img" src="img/master-petro.webp" alt="eskiz-tattoo"></picture>
+			</div>
+			<div class="footer__grid-col">
+				<ul class="footer__list">
+					<li class="footer__item">м.Івано-Франківськ</li>
+					<li class="footer__item">вул.Гетьмана Мазепи, 20/8</li>
+					<li class="footer__item"><div class="divider divider-start"><span></span></div></li>
+					<li class="footer__item"><a href="#" class="footer__link">+38(000)000-00-00</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">oh.tattoo@gmail.com</a></li>
+					<li class="footer__item"><div class="divider divider-start"><span></span></div></li>
+					<li class="footer__item">
+						<div class="social-block">
+							<div class="social-icon" data-tooltip="facebook: @oh.tattoo">
+								<a href="#">
+									<picture><source srcset="img/facebook.webp" type="image/webp"><img src="img/facebook.png" alt="facebook"></picture>
+								</a>
+							</div>
+							<div class="social-icon" data-tooltip="instagram: @oh.tattoo">
+								<a href="#">
+									<picture><source srcset="img/instagram.webp" type="image/webp"><img src="img/instagram.webp" alt="facebook"></picture>
+								</a>
+							</div>
+							
+							<div class="social-icon"  data-tooltip="viber: +38(066)273-14-13">
+								<a href="viber://chat?number=%2B380662731413">
+									<picture><source srcset="img/viber.webp" type="image/webp"><img src="img/viber.png" alt="viber"></picture>
+								</a>
+							</div>
+							
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__grid-col footer__grid-col--mob-string">
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a data-go-page="index.html" data-link ="homePage" href="#" class="footer__link">
+							Головна
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="master.html" data-link ="masterPage" href="#" class="footer__link">
+							Наші майстри
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="catalog.html" data-link ="catalogPage" href="#" class="footer__link">
+							Каталог ескізів
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="payment.html" data-link ="paymentPage" href="#" class="footer__link">
+							Способи оплати
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="diznatys-cinu.html" data-link ="diznatysCinuPage" href="#" class="footer__link">
+							Запитати про ціну
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="contacts.html" data-link ="contactsPage" href="#" class="footer__link">
+							Контактна інформація
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="portfolio.html" data-link ="portfolioPage" href="#" class="footer__link">
+							Портфоліо
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="service.html" data-link ="servicePage" href="#" class="footer__link">
+							Послуги
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="price.html" data-link ="pricePage" href="#" class="footer__link">
+							Вартість
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__grid-col footer__grid-col--mob-text-right">
+				<ul class="footer__list">
+					<li class="footer__item row--reverce text-end footer__item--mini-col">
+						<img src="../img/logo-vector-white.svg" alt="logo" class="footer__item-logo">
+						Найкра&shy;щий та&shy;ту са&shy;лон!<br/>
+						Послу&shy;ги нада&shy;ють&shy;ся осо&shy;бам, які до&shy;сяг&shy;ли 18 ро&shy;ків!
+					</li>
+					
+					<li class="footer__item">
+						<div class="divider divider-start">
+							<span style="width: 100%;"></span>
+						</div>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="oferta.html" data-link ="ofertaPage" href="#" class="footer__link">
+							Публічна оферта
+						</a>
+					</li>
+					<li class="footer__item">
+						<a data-go-page="private-police.html" data-link ="privatePolicePage" href="#" class="footer__link">
+							Політика конфіденційності
+						</a>
+					</li>
+					<li class="footer__item">
+						<div class="divider divider-start divider-75">
+							<span></span>
+						</div>
+					</li>
+					<li class="footer__item" style="padding: 7px 0;"><a data-go-page="contacts.html#bookIn" href="#" class="button">Записатись</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer__copyright-row">
+		<p>Copyright U-Ra 2022</p>
+	</div>
+</footer>
+	</div>
+	<script src="js/app.min.js?_v=20220906181155"></script>
+</body>
+</html>
